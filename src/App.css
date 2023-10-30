@@ -1,0 +1,45 @@
+.main{
+  width:1300px;
+  flex-direction:column;
+}
+
+.firstDiv{
+  display:flex;
+  justify-content:center;
+  background-color:black;
+  color:white;
+  margin-bottom:20px;
+}
+
+.secondDiv{
+  display:flex;
+  justify-content:space-between;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:darkcyan;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.textInput{
+  height:40px;
+  width:300px;
+}
+
+.add{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding-left:150px;
+  padding-right:150px;
+  margin-top:20px;
+  height:120px;
+}
+
+.button{
+  height:25px;
+}
+
+.completed {
+  background-color:green !important;
+}
